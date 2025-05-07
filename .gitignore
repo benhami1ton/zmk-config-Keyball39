@@ -1,5 +1,8 @@
 # SpecStory explanation file
-.specstory/.what-is-this.md
+.specstory/** 
+
+# Cursor indexing ignore file
+.cursorindexingignore
 
 # Build artifacts
 build/
@@ -24,3 +27,5 @@ node_modules/
 
 # Keymap Drawer output (if generated)
 keymap-drawer/output/
+# SpecStory explanation file
+.specstory/.what-is-this.md
