@@ -1,0 +1,26 @@
+# SpecStory explanation file
+.specstory/.what-is-this.md
+
+# Build artifacts
+build/
+out/
+*.uf2
+*.hex
+*.bin
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+
+# Python/Node
+__pycache__/
+node_modules/
+*.pyc
+
+# Keymap Drawer output (if generated)
+keymap-drawer/output/
