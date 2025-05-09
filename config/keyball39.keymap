@@ -49,7 +49,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
 
 
 
-{
+/ {
     // custom shift using mod-morph 
 
     behaviors {
