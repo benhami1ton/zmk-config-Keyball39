@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball39}
 layers:
-  ⚫︎  C Mod-DH:
+  COL-DH:
   - Q
   - W
   - F
@@ -34,13 +34,13 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: ○  MEDIA}
-  - {t: '$$mdi:keyboard-space$$', h: ○  NAV}
-  - {t: '$$mdi:keyboard-tab$$', h: ○  MOUSE}
-  - {t: '$$mdi:keyboard-return$$', h: ○  SYM}
-  - {t: '$$mdi:backspace$$', h: ○  NUM}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: ○  FUN}
-  ⚫︎  QWERTY:
+  - {t: '$$mdi:keyboard-esc$$', h: MEDIA}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
+  - {t: '$$mdi:backspace$$', h: NUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: FUN}
+  QWERTY:
   - Q
   - W
   - E
@@ -74,13 +74,13 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: ⚫︎  C Mod-DH}
-  - {t: '$$mdi:keyboard-space$$', h: ○  MEDIA}
-  - {t: '$$mdi:keyboard-tab$$', h: ○  MOUSE}
-  - {t: '$$mdi:keyboard-return$$', h: ○  SYM}
-  - {t: '$$mdi:backspace$$', h: ○  NUM}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: ⚫︎  C Mod-DH}
-  ○  NUM:
+  - {t: '$$mdi:keyboard-esc$$', h: COL-DH}
+  - {t: '$$mdi:keyboard-space$$', h: MEDIA}
+  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
+  - {t: '$$mdi:backspace$$', h: NUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: COL-DH}
+  NUM:
   - {t: '[', s: '{'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -120,7 +120,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  ○  SYM:
+  SYM:
   - '{'
   - '&'
   - '*'
@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  ○  Button:
+  Button:
   - UNDO
   - CUT
   - COPY
@@ -200,7 +200,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  ○  MOUSE:
+  MOUSE:
   - '&td_boot'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -240,7 +240,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-left-click-outline$$
-  ○  SNIPE:
+  SNIPE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -280,7 +280,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  ○  NAV:
+  NAV:
   - '&td_boot'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -320,7 +320,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  ○  FUN:
+  FUN:
   - F12
   - F7
   - F8
@@ -360,7 +360,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  ○  MEDIA:
+  MEDIA:
   - '&td_boot'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
