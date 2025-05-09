@@ -65,6 +65,15 @@
             #binding-cells = <0>;
             bindings = <&none>, <&bootloader>;
         };
+
+        ht_layertrans: ht_layertrans {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Switches to Layer on Hold, Trans on Tap";
+            bindings = <&mo>, <&trans>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     macros {
@@ -121,10 +130,10 @@
 
         miryoku_button {
             bindings = <
-&kp K_UNDO  &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_REDO                        &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE   &kp K_REDO
-&kp LCTRL   &kp LEFT_ALT  &kp LGUI    &kp LSHFT    &kp SPACE                         &trans      &kp LSHFT  &kp LGUI    &kp LEFT_ALT  &kp LCTRL
-&kp K_UNDO  &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_REDO                        &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE   &kp K_REDO
-&trans      &trans        &trans      &mkp MCLK    &mkp LCLK   &mkp RCLK  &mkp RCLK  &mkp LCLK                                        &mkp MCLK
+&kp K_UNDO          &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_REDO                        &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE   &kp K_REDO
+&kp LCTRL           &kp LEFT_ALT  &kp LGUI    &kp LSHFT    &kp SPACE                         &trans      &kp LSHFT  &kp LGUI    &kp LEFT_ALT  &kp LCTRL
+&kp K_UNDO          &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_REDO                        &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE   &kp K_REDO
+&ht_layertrans 6 0  &trans        &trans      &mkp MCLK    &mkp LCLK   &mkp RCLK  &mkp RCLK  &mkp LCLK                                        &mkp MCLK
             >;
 
             label = "Button";
@@ -133,10 +142,10 @@
         miryoku_mouse {
             label = "MOUSE";
             bindings = <
-&td_boot   &none         &none     &none      &none                        &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO
-&kp LCTRL  &kp LEFT_ALT  &kp LGUI  &kp LSHFT  &mkp LCLK                    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&none      &none         &none     &none      &none                        &mkp MCLK   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
-&none      &none         &none     &none      &none      &none  &mkp LCLK  &mkp LCLK                                                 &mkp LCLK
+&td_boot            &none         &none     &none      &none                        &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO
+&kp LCTRL           &kp LEFT_ALT  &kp LGUI  &kp LSHFT  &mkp LCLK                    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&none               &none         &none     &none      &none                        &mkp MCLK   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
+&ht_layertrans 6 0  &none         &none     &none      &none      &none  &mkp LCLK  &mkp LCLK                                                 &mkp LCLK
             >;
         };
 
@@ -153,20 +162,20 @@
         miryoku_nav {
             label = "NAV";
             bindings = <
-&td_boot   &none         &none     &none      &none                  &kp K_REDO  &kp K_PASTE     &kp K_COPY  &kp K_CUT  &kp K_UNDO
-&kp LCTRL  &kp LEFT_ALT  &kp LGUI  &kp LSHFT  &none                  &kp CAPS    &kp LEFT_ARROW  &kp DOWN    &kp UP     &kp RIGHT
-&none      &none         &none     &none      &none                  &kp INS     &kp HOME        &kp PG_DN   &kp PG_UP  &kp END
-&none      &none         &none     &none      &none  &none  &kp RET  &kp BSPC                                           &kp DEL
+&td_boot            &none         &none     &none      &none                  &kp K_REDO  &kp K_PASTE     &kp K_COPY  &kp K_CUT  &kp K_UNDO
+&kp LCTRL           &kp LEFT_ALT  &kp LGUI  &kp LSHFT  &none                  &kp CAPS    &kp LEFT_ARROW  &kp DOWN    &kp UP     &kp RIGHT
+&none               &none         &none     &none      &none                  &kp INS     &kp HOME        &kp PG_DN   &kp PG_UP  &kp END
+&ht_layertrans 6 0  &none         &none     &none      &none  &none  &kp RET  &kp BSPC                                           &kp DEL
             >;
         };
 
         miryoku_fun {
             label = "FUN";
             bindings = <
-&kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN                        &none  &none      &none     &none     &td_boot
-&kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK                         &none  &kp LSHFT  &kp LGUI  &kp LALT  &kp LCTRL
-&kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK                  &none  &none      &none     &none     &none
-&none    &none   &none   &kp K_APP  &kp SPACE        &kp TAB  &none  &none                                 &none
+&kp F12             &kp F7  &kp F8  &kp F9     &kp PSCRN                        &none  &none      &none     &none     &td_boot
+&kp F11             &kp F4  &kp F5  &kp F6     &kp SLCK                         &none  &kp LSHFT  &kp LGUI  &kp LALT  &kp LCTRL
+&kp F10             &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK                  &none  &none      &none     &none     &none
+&ht_layertrans 6 0  &none   &none   &kp K_APP  &kp SPACE        &kp TAB  &none  &none                                 &none
             >;
         };
 
