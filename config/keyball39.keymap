@@ -9,12 +9,17 @@
 #define FUN     8  // Function layer for function keys
 #define MEDIA   9  // Media layer for media control keys
 
+
+//ZMK configs
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+
+// Personal configs
+#include <behaviors_homerow_mods.dtsi>
 
 / {
     // custom shift using mod-morph 
