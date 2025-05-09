@@ -11,16 +11,16 @@ layers:
   - U
   - Y
   - .
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - '&hm_l LCTRL A'
+  - '&hm_l LALT R'
+  - '&hm_l LCMD S'
+  - '&hm_shift_l LSHFT T'
   - G
   - M
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: LGUI}
-  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
+  - '&hm_shift_r LSHFT N'
+  - '&hm_r LGUI E'
+  - '&hm_r LCTRL I'
+  - '&hm_r LCTRL O'
   - Z
   - X
   - C
@@ -57,10 +57,10 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: LGUI}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - '&hm_shift_r LSHFT J'
+  - '&hm_r LGUI K'
+  - '&hm_r LCTRL L'
+  - '&hm_r LCTRL SEMICOLON'
   - Z
   - X
   - C
