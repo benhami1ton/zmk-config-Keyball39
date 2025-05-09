@@ -7,9 +7,10 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // Personal configs
+#include "behaviors_homerow_mods.dtsi"
 #include "zmk-helpers/helper.h"
 #include "keyball39_key-labels.h"
-#include "behaviors_homerow_mods.dtsi"
+
 
 
 #define XXX &none
