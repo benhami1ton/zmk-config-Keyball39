@@ -7,6 +7,11 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // Personal configs
+
+#define HM_TAPPING_TERM 250
+#define HM_TAPPING_TERM_FAST 180
+#define HM_PRIOR_IDLE 120
+
 #include "behaviors_homerow_mods.dtsi"
 #include "zmk-helpers/helper.h"
 #include "keyball39_key-labels.h"
