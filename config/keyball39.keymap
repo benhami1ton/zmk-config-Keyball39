@@ -169,7 +169,7 @@
             label = "COL-DH";
             bindings = <
 &kp Q           &kp W          &kp F          &kp P                  &kp B                                &kp J            &kp L                  &kp U          &kp Y           &kp APOS
-&hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LGUI S  &hrm_shift_l LSHIFT T  &kp G                                &kp M            &hrm_shift_r RSHIFT N  &hrm_r LGUI E  &hrm_r LCTRL I  &hrm_r LCTRL O
+&kp LCTRL       &kp LALT       &kp LGUI       &kp LSHIFT             &kp G                                &kp M            &kp RSHIFT             &kp LGUI       &kp LCTRL       &kp LCTRL
 &kp Z           &kp X          &kp C          &kp D                  &kp V                                &kp K            &kp H                  &kp COMMA      &kp DOT         &kp FSLH
 &kp LCTRL       &kp LEFT_WIN   &kp LALT       &lt 9 ESCAPE           &lt 7 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                        &lt 8 DEL
             >;
