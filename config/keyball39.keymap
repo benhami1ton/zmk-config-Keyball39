@@ -125,7 +125,7 @@
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32 33 34 35 38 37 36>;
         };
 
-        hmr_shift_l: homerow_mod_shift_left {
+        hrm_shift_l: homerow_mod_shift_left {
             compatible = "zmk,behavior-hold-tap";
             label = "Homerow Mod - Shift - Left";
             bindings = <&kp>, <&kp>;
@@ -138,7 +138,7 @@
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 36 37 38 35 34 33 32 31 30>;
         };
 
-        hmr_shift_r: homerow_mod_shift_right {
+        hrm_shift_r: homerow_mod_shift_right {
             compatible = "zmk,behavior-hold-tap";
             label = "Homerow Mod - Shift - Right";
             bindings = <&kp>, <&kp>;
@@ -168,7 +168,7 @@
             label = "COL-DH";
             bindings = <
 &kp Q           &kp W          &kp F          &kp P                  &kp B                                &kp J            &kp L                  &kp U          &kp Y           &kp APOS
-&hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LCMD S  &hmr_shift_l LSHIFT T  &kp G                                &kp M            &hmr_shift_r RSHIFT N  &hrm_r LGUI E  &hrm_r LCTRL I  &hrm_r LCTRL O
+&hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LCMD S  &hrm_shift_l LSHIFT T  &kp G                                &kp M            &hrm_shift_r RSHIFT N  &hrm_r LGUI E  &hrm_r LCTRL I  &hrm_r LCTRL O
 &kp Z           &kp X          &kp C          &kp D                  &kp V                                &kp K            &kp H                  &kp COMMA      &kp DOT         &kp FSLH
 &kp LCTRL       &kp LEFT_WIN   &kp LALT       &lt 9 ESCAPE           &lt 7 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                        &lt 8 DEL
             >;
