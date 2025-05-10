@@ -24,7 +24,6 @@
 
 #define XXX &none
 #define ___ &trans
-
 #define DEFAULT 0  // Colmak Mod-DH
 #define QWERTY  1  // QWERTY Alternative
 #define NUM     2  // Numbers and related symbols
@@ -45,9 +44,7 @@
     quick-release;
 };
 
-&sl {
-    ignore-modifiers;
-};
+&sl { ignore-modifiers; };
 
 &lt {
     flavor = "balanced";
@@ -170,20 +167,20 @@
         miryoku_alpha_colmak {
             label = "COL-DH";
             bindings = <
-&kp Q           &kp W         &kp F         &kp P                &kp B                                &kp J            &kp L                &kp U         &kp Y          &kp APOS
-&hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LCMD S  &hrm_shift_l LSHFT T  &kp G                                &kp M            &hrm_shift_r LSHFT N  &hrm_r LGUI E  &hrm_r LCTRL I  &hrm_r LCTRL O
-&kp Z           &kp X         &kp C         &kp D                &kp V                                &kp K            &kp H                &kp COMMA     &kp DOT        &kp FSLH
-&kp LCTRL       &kp LEFT_WIN  &kp LALT      &lt 9 ESCAPE         &lt 7 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                    &lt 8 DEL
+&kp Q           &kp W          &kp F          &kp P                  &kp B                                &kp J            &kp L                  &kp U          &kp Y           &kp APOS
+&hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LCMD S  &hmr_shift_l LSHIFT T  &kp G                                &kp M            &hmr_shift_r RSHIFT N  &hrm_r LGUI E  &hrm_r LCTRL I  &hrm_r LCTRL O
+&kp Z           &kp X          &kp C          &kp D                  &kp V                                &kp K            &kp H                  &kp COMMA      &kp DOT         &kp FSLH
+&kp LCTRL       &kp LEFT_WIN   &kp LALT       &lt 9 ESCAPE           &lt 7 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                        &lt 8 DEL
             >;
         };
 
         miryoku_alpha_qwerty {
             label = "QWERTY";
             bindings = <
-&kp Q        &kp W         &kp E       &kp R         &kp T                                &kp Y            &kp U                &kp I         &kp O          &kp P
-&hrm_l LCTRL A  &hrm_l LALT S    &hrm_l LCMD D  &hrm_shift_l LSHFT F   &kp G                                &kp H            &hm_shift_r LSHFT J  &hm_r LGUI K  &hm_r LCTRL L  &hm_r LCTRL SEMICOLON
-&kp Z        &kp X         &kp C       &kp V         &kp B                                &kp N            &kp M                &kp COMMA     &kp DOT        &kp FSLH
-&kp LCTRL    &kp LEFT_WIN  &kp LALT    &lt 0 ESCAPE  &lt 9 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                    &lt 0 DEL
+&kp Q           &kp W          &kp E          &kp R                 &kp T                                &kp Y            &kp U                &kp I         &kp O          &kp P
+&hrm_l LCTRL A  &hrm_l LALT S  &hrm_l LCMD D  &hrm_shift_l LSHFT F  &kp G                                &kp H            &hm_shift_r LSHFT J  &hm_r LGUI K  &hm_r LCTRL L  &hm_r LCTRL SEMICOLON
+&kp Z           &kp X          &kp C          &kp V                 &kp B                                &kp N            &kp M                &kp COMMA     &kp DOT        &kp FSLH
+&kp LCTRL       &kp LEFT_WIN   &kp LALT       &lt 0 ESCAPE          &lt 9 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                    &lt 0 DEL
             >;
         };
 
