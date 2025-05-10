@@ -11,10 +11,10 @@ layers:
   - U
   - Y
   - .
-  - '&ht LCTRL A'
-  - '&ht LALT R'
-  - '&ht LGUI S'
-  - '&ht LSHIFT T'
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: LGUI}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - M
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
