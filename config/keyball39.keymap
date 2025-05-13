@@ -133,17 +133,17 @@
 &kp Q           &kp W               &kp F          &kp P                  &kp B                                &kp J            &kp L                  &kp U          &kp Y          &kp APOS
 &hrm_l LCTRL A  &hrm_l LALT R       &hrm_l LGUI S  &hrm_shift_l LSHIFT T  &kp G                                &kp M            &hrm_shift_r RSHIFT N  &hrm_r LGUI E  &hrm_r LALT I  &hrm_r LCTRL O
 &kp Z           &kp X               &kp C          &kp D                  &kp V                                &kp K            &kp H                  &kp COMMA      &kp DOT        &kp FSLH
-&mkp LCLK       &ht_layertrans 5 0  &mkp RCLK      &lt 9 ESCAPE           &lt 7 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                       &lt 8 DEL
+&mkp RCLK       &ht_layertrans 5 0  &mkp LCLK      &lt 9 ESCAPE           &lt 7 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                       &lt 8 DEL
             >;
         };
 
         miryoku_alpha_qwerty {
             label = "QWERTY";
             bindings = <
-&kp Q           &kp W          &kp E          &kp R                  &kp T                                &kp Y            &kp U                  &kp I          &kp O           &kp P
-&hrm_l LCTRL A  &hrm_l LALT S  &hrm_l LGUI D  &hrm_shift_l LSHIFT F  &kp G                                &kp H            &hrm_shift_r LSHIFT J  &hrm_r LGUI K  &hrm_r LCTRL L  &hrm_r LCTRL SEMICOLON
-&kp Z           &kp X          &kp C          &kp V                  &kp B                                &kp N            &kp M                  &kp COMMA      &kp DOT         &kp FSLH
-&kp LCTRL       &kp LEFT_WIN   &kp LALT       &lt 0 ESCAPE           &lt 9 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                        &lt 0 DEL
+&kp Q           &kp W               &kp E          &kp R                  &kp T                                &kp Y            &kp U                  &kp I          &kp O           &kp P
+&hrm_l LCTRL A  &hrm_l LALT S       &hrm_l LGUI D  &hrm_shift_l LSHIFT F  &kp G                                &kp H            &hrm_shift_r LSHIFT J  &hrm_r LGUI K  &hrm_r LCTRL L  &hrm_r LCTRL SEMICOLON
+&kp Z           &kp X               &kp C          &kp V                  &kp B                                &kp N            &kp M                  &kp COMMA      &kp DOT         &kp FSLH
+&mkp LCLK       &ht_layertrans 5 0  &mkp RCLK      &lt 0 ESCAPE           &lt 9 SPACE  &lt 5 TAB  &lt 3 ENTER  &lt 2 BACKSPACE                                                        &lt 0 DEL
             >;
         };
 
@@ -153,7 +153,7 @@
 &kp LBKT   &kp N7  &kp N8  &kp N9   &kp RBKT                     &none  &none      &none     &none     &td_boot
 &kp SEMI   &kp N4  &kp N5  &kp N6   &kp EQUAL                    &none  &kp LSHFT  &kp LGUI  &kp LALT  &kp LCTRL
 &kp GRAVE  &kp N1  &kp N2  &kp N3   &kp BSLH                     &none  &none      &none     &none     &none
-&none      &none   &none   &kp DOT  &kp N0     &kp MINUS  &none  &none                                 &none
+&trans     &trans  &trans  &kp DOT  &kp N0     &kp MINUS  &none  &none                                 &none
             >;
         };
 
@@ -163,7 +163,7 @@
 &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC                    &none  &none      &none     &none     &td_boot
 &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS                    &none  &kp LSHFT  &kp LGUI  &kp LALT  &kp LCTRL
 &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE                    &none  &none      &none     &none     &none
-&none      &none     &none      &kp LPAR   &kp RPAR  &kp UNDER  &none  &none                                 &none
+&trans     &trans    &trans     &kp LPAR   &kp RPAR  &kp UNDER  &none  &none                                 &none
             >;
         };
 
@@ -181,10 +181,10 @@
         miryoku_mouse {
             label = "MOUSE";
             bindings = <
-&td_boot            &none         &none     &none      &none                        &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO
-&kp LCTRL           &kp LEFT_ALT  &kp LGUI  &kp LSHFT  &mkp LCLK                    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&none               &none         &none     &none      &none                        &mkp MCLK   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
-&ht_layertrans 6 0  &none         &none     &none      &none      &none  &mkp LCLK  &mkp LCLK                                                 &mkp LCLK
+&td_boot   &none         &none     &none               &none                        &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO
+&kp LCTRL  &kp LEFT_ALT  &kp LGUI  &kp LSHFT           &mkp LCLK                    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&none      &none         &none     &none               &none                        &mkp MCLK   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
+&trans     &trans        &trans    &ht_layertrans 6 0  &none      &none  &mkp LCLK  &mkp LCLK                                                 &mkp LCLK
             >;
         };
 
