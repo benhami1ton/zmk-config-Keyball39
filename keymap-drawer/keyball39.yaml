@@ -400,3 +400,163 @@ layers:
   - STOP
   - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
+  vBASE:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - {t: '$$mdi:backspace$$', h: 'Gui+$$mdi:backspace$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: LGUI}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: LGUI}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - {t: ',', h: '-', s: <}
+  - {t: ., h: '!', s: '>'}
+  - {t: _, h: /}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-space$$', h: 'Gui+$$mdi:keyboard-space$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: vSYM, h: vSYM}
+  - $$mdi:apple-keyboard-control$$
+  vSYM:
+  - $$mdi:keyboard-esc$$
+  - '@'
+  - '#'
+  - Gui+Sft+4
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - {t: ;, h: ':', s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - _
+  - ''
+  - ''
+  - {t: '''', h: '`', s: '"'}
+  - {t: \, h: HOME, s: '|'}
+  - '{'
+  - '}'
+  - {t: '|', h: END}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '~'
+  - $
+  - ''
+  - ''
+  - '"'
+  - {t: '[', s: '{'}
+  - (
+  - )
+  - {t: ']', s: '}'}
+  - {t: vNUM, h: toggle}
+  - ''
+  - ''
+  - ''
+  - Sft+!
+  - {t: vBASE, h: toggle}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: v3, h: toggle, type: held}
+  - {t: vNUM, h: toggle}
+  vNUM:
+  - $$mdi:keyboard-esc$$
+  - PLAY PAUSE
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - {t: Sft+-, h: Sft+Gui+-, s: Sft+_}
+  - {t: '-', h: Gui+-, s: _}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - {t: '=', h: Sft+Gui+=, s: +}
+  - {t: Gui+=, h: '=', s: Gui++}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: v3, h: toggle}
+  - '*'
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - {t: ., s: '>'}
+  - {t: '0', s: )}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: vBASE, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  v3:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: vBASE, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
