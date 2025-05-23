@@ -71,9 +71,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '&trans', h: MOUSE}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-esc$$', h: COL-DH}
   - {t: '$$mdi:keyboard-space$$', h: MEDIA}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
@@ -191,7 +191,7 @@ layers:
   - COPY
   - PASTE
   - REDO
-  - {t: '&trans', h: SNIPE}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
@@ -271,12 +271,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -431,7 +431,7 @@ layers:
   - {t: ',', h: '-', s: <}
   - {t: ., h: '!', s: '>'}
   - {t: _, h: /}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Alt+$$mdi:apple-keyboard-shift$$
@@ -439,47 +439,47 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: vSYM, h: vSYM}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   vSYM:
   - $$mdi:keyboard-esc$$
-  - '@'
-  - '#'
-  - Gui+Sft+4
-  - '%'
-  - ^
+  - '|'
+  - (
+  - )
+  - +
+  - '"'
   - '&'
   - '*'
   - {t: ;, h: ':', s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - _
-  - ''
-  - ''
-  - {t: '''', h: '`', s: '"'}
-  - {t: \, h: HOME, s: '|'}
-  - '{'
-  - '}'
-  - {t: '|', h: END}
+  - {t: \, s: '|'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '=', s: +}
+  - .
+  - {t: $, h: Sft+Gui+4}
+  - '%'
+  - ^
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '~'
-  - $
-  - ''
-  - ''
-  - '"'
-  - {t: '[', s: '{'}
-  - (
-  - )
-  - {t: ']', s: '}'}
-  - {t: vNUM, h: toggle}
-  - ''
-  - ''
-  - ''
-  - Sft+!
+  - _
+  - '{'
+  - '}'
+  - {t: '-', s: _}
+  - {t: '`', s: '~'}
+  - '!'
+  - '@'
+  - '#'
+  - {t: vNAV, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: vBASE, h: toggle}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
-  - {t: v3, h: toggle, type: held}
-  - {t: vNUM, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: vNUM, h: toggle, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   vNUM:
   - $$mdi:keyboard-esc$$
   - PLAY PAUSE
@@ -501,27 +501,26 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: v3, h: toggle}
+  - {t: vNAV, h: toggle}
   - '*'
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - {t: ., s: '>'}
   - {t: '0', s: )}
-  - {t: '1', s: '!'}
+  - {t: '1', h: F1}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
+  - {t: vNAV, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: vBASE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  v3:
-  - {t: '$$mdi:transfer$$', type: trans}
+  vNAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -554,8 +553,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: vBASE, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
